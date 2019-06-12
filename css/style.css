@@ -24,6 +24,15 @@ body {
 	z-index: 1;
 }
 
+.l-menu-link-hover-state {
+	border-bottom: 1px solid transparent;
+	transition: border-bottom-color 0.5s ease;
+}
+
+.l-menu-link-hover-state:hover {
+	border-bottom-color: #fff;
+}
+
 .c-logo {
 	font-size: 30px;
 }
@@ -41,6 +50,43 @@ body {
 .c-header__content {
 	position: relative;
 	z-index: 2;
+}
+
+.c-header__top {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.c-service-menu__list {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.c-service-menu__elem {
+	list-style: none;
+	margin: 0 5px;
+}
+
+.c-service-menu__elem:first-child {
+	margin-left: 0;
+}
+
+.c-service-menu__elem:last-child {
+	margin-right: 0;
+}
+
+.c-service-menu__link {
+	box-sizing: border-box;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
 }
 
 .c-header__title {
@@ -74,10 +120,4 @@ body {
 	text-decoration: none;
 	padding: 5px;
 	color: #fff;
-	border-bottom: 1px solid transparent;
-	transition: border-bottom-color 0.5s ease;
-}
-
-.c-navigation__link:hover {
-	border-bottom-color: #fff;
 }
