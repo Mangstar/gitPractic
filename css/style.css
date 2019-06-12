@@ -4,3 +4,48 @@ body {
 	background-color: #c3c3c3;
 	color: #fff;
 }
+
+.l-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.c-logo {
+	font-size: 30px;
+}
+
+.c-header__title {
+	text-align: center;
+	font-size: 40px;
+}
+
+.c-navigation__list {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 0;
+}
+
+.c-navigation__elem {
+	list-style: none;
+	margin-right: 5px;
+	font-size: 16px;
+}
+
+.c-navigation__elem:last-child {
+	margin-right: 0;
+}
+
+.c-navigation__link {
+	text-decoration: none;
+	padding: 5px;
+	transition: text-decoration 0.5s ease;
+}
+
+.c-navigation__link:hover {
+	text-decoration: underline;
+}
