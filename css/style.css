@@ -95,7 +95,12 @@ body {
 }
 
 .c-navigation__list {
-
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
 }
 
 .l-page-content {
